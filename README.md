@@ -10,7 +10,7 @@ The task is to develop a REST API endpoint that processes POST requests containi
 Install Django: "pip install django"
 
 
-# Testing
+## Testing
 1. Open Terminal and navigate to skai-labs-task-2/unauthorized_sales_detection/
 2. Run command: python manage.py runserver
 3. Open another Terminal and run command "python send_post_request.py"

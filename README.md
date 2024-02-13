@@ -11,7 +11,7 @@ The task is to develop a REST API endpoint that processes POST requests containi
 -  Inside the project directory (unauthorized_sales_detection), there's a separate app called sales_detection. This app contains the models, views, and URLs related to unauthorized sales detection.
 
 
-## API Endpoint (views.py):
+## API Endpoint:
 - The core functionality is implemented in the detect_unauthorized_sales view.
 - This view is decorated with @csrf_exempt to allow handling POST requests without requiring CSRF tokens. This is appropriate for APIs that are consumed by clients that may not provide CSRF tokens, such as JavaScript frontends or external services.
 - The view expects a POST request with JSON data containing lists of product listings and sales transactions.

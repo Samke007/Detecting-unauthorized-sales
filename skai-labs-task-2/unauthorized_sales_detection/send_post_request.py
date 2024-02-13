@@ -6,14 +6,8 @@ url = 'http://localhost:8000/api/detect_unauthorized_sales/'
 
 # Define the JSON data to send in the POST request
 data = {
-    "productListings": [{"productID": "123", "authorizedSellerID": "A1"},
-                        {"productID": "456", "authorizedSellerID": "A2"},
-                        {"productID": "789", "authorizedSellerID": "A3"},
-                        {"productID": "101", "authorizedSellerID": "A4"}],
-    "salesTransactions": [{"productID": "123", "sellerID": "B2"},
-                          {"productID": "456", "sellerID": "A2"},
-                         {"productID": "789", "sellerID": "A3"},
-                         {"productID": "101", "sellerID": "B4"}]
+    "productListings": [{"productID": "123", "authorizedSellerID": "A1"}],
+    "salesTransactions": [{"productID": "123", "sellerID": "B2"}]
 }
 
 print(data)
